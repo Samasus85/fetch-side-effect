@@ -1,0 +1,37 @@
+.post {
+  background-color: rgb(253, 208, 244);
+  box-shadow: 1px 5px 5px 5px rgb(177, 169, 247);
+  border: 1px solid rgb(130, 28, 247);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.post-item {
+  display: flex;
+  justify-content: space-between;
+}
+.post-item h4 {
+  color: rgb(233, 52, 29);
+  text-align: start;
+}
+.post-item p {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 252, 105);
+  box-shadow: 1px 1px 1px 1px rgb(5, 243, 65);
+  color: blue;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.post img {
+  width: 200px;
+  margin: 30px;
+  border: 1px solid red;
+  box-shadow: 1px 5px 3px 5px rgb(250, 141, 226);
+  border-radius: 15px;
+}
